@@ -1,17 +1,25 @@
 import os
+import time
 import unittest
 
-
-from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium import webdriver
+from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 
 class TestLoginPage(unittest.TestCase):
+
+    driver = webdriver.Chrome
+
+    def test_placeholder(self):
+        pass
 
     @classmethod
     def setUp(self):
