@@ -10,6 +10,8 @@
 
 # TASK 2: selectors
 
+> ## Subtask 1: Searching for selectors on the login pageList all the elements that are on the login page.
+
 > //*[@id="login"]
 > 
 > //*[@name="login"]
