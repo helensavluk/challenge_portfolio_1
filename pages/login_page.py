@@ -3,8 +3,8 @@ from pages.base_page import BasePage
 
 class LoginPage(BasePage):
     login_field_xpath = "//*[@id='login']"
-    password_field_xpath = "//*[@id="password"]"
-    sign_in_button_xpath = "//*[text()="Sign in"]"
+    password_field_xpath = "//*[@id='password']"
+    sign_in_button_xpath = "//*[text()="Sign In"]"
     remind_password_button_xpath = "//*[text()="Remind password"]"
     language_select_area_xpath = "//*[@class="MuiSelect-nativeInput"]"
 
