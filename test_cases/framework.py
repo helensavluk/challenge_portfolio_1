@@ -48,4 +48,4 @@ class TestMediumPage(unittest.TestCase):
         self.driver.quit()
 
     def test_print_nice_words(self):
-        print("WELL DONE!!!!!!!!!")
+        print("OK! - YES YES YES! THIS IS OUR FIRST SHORT AUTOMATIC TEST!")
