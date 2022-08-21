@@ -10,3 +10,9 @@ class LoginPage(BasePage):
 
     def type_in_email(self, email):
         self.field_send_keys(self.login_field_xpath, email)
+
+    def type_in_password(self, password):
+        self.field_send_keys(self.password_field_xpath, password)
+
+    def click_sign_in_button(self, button):
+        return self.driver.find_element(sign_in_button_xpath, button).click()
