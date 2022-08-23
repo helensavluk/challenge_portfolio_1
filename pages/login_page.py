@@ -1,10 +1,5 @@
 import self
 from pages.base_page import BasePage
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-
-s = Service('D:/testing/challenge_portfolio_1/drivers/chromedriver.exe')
-driver = webdriver.Chrome(service=s)
 
 
 class LoginPage(BasePage):

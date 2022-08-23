@@ -4,10 +4,7 @@ import unittest
 
 import self
 from selenium import webdriver
-# from webdriver_manager.chrome import ChromeDriverManager
 
-# from pages.dashboard_page import Dashboard
-from webdriver_manager.chrome import ChromeDriverManager
 
 from pages.dashboard_page import Dashboard
 from pages.login_page import LoginPage
